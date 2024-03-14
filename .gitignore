@@ -1,3 +1,7 @@
+.ccls-cache
+.replit
+replite.nix
+
 # Prerequisites
 *.d
 
