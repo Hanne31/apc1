@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
 int main() {
   int numero1;
@@ -26,13 +26,13 @@ int main() {
   int resto = numero1 % numero2;
   printf("O resto da divisão dos numeros é: %i\n", resto);
 
-  //numero1 = numero1 + 1
-  //incremento
+  // numero1 = numero1 + 1
+  // incremento
   printf("O incremento do primeiro numero é: %i\n", numero1++);
   printf("O incremento do primeiro numero é: %i\n", ++numero1);
 
-  //numero1 = numero1 - 1
-  //decremento
+  // numero1 = numero1 - 1
+  // decremento
   printf("O decremento do primeiro numero é: %i\n", numero1--);
   printf("O decremento do primeiro numero é: %i\n", --numero1);
 
@@ -44,14 +44,13 @@ int main() {
 
   double logaritmo2 = log2(numero1);
   printf("O log2 do primeiro numero é: %f\n", logaritmo2);
-  
+
   const double PI = 3.1415;
-  
+
   double seno = sin(numero1 * (PI / 180));
   printf("O seno do primeiro numero é: %f\n", seno);
 
   
-  
-  
+
   return 0;
 }
